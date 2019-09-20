@@ -24,7 +24,35 @@ footer{
 .navbar1{
   height: 30px;
   background-color: #0d325a;
-  border-bottom: 5px pink;
+}
+
+.info{
+  width: 50%;
+  margin-left: 5%;
+}
+
+.info:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.info img{
+  height: 25px;
+  float: left;
+}
+
+.info ul{
+  list-style-type: none;
+  float: left;
+  mar
+}
+
+.info li{
+  color: white;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 50px;
 }
 
 .navbar2{
