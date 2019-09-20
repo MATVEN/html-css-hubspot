@@ -5,3 +5,33 @@
   border: 0;
   box-sizing: border-box;
 }
+
+header{
+  height: 600px;
+  background-color: grey;
+}
+
+main{
+  height: 2200px;
+  background-color: white;
+}
+
+footer{
+  height: 500px;
+  background-color: darkblue;
+}
+
+.navbar1{
+  height: 30px;
+  background-color: #0d325a;
+}
+
+.navbar2{
+  height: 60px;
+  background-color: lightgrey;
+}
+
+.navbar3{
+  height: 60px;
+  background-color: white;
+}
