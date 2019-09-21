@@ -11,16 +11,7 @@ header{
   background-color: grey;
 }
 
-main{
-  height: 2200px;
-  background-color: white;
-}
-
-footer{
-  height: 500px;
-  background-color: darkblue;
-}
-
+/* nav1 */
 .navbar1{
   height: 30px;
   background-color: #0d325a;
@@ -54,6 +45,7 @@ footer{
   margin-left: 50px;
 }
 
+/* nav2 */
 .navbar2{
   height: 60px;
   background-color: lightgrey;
@@ -96,6 +88,7 @@ footer{
   text-decoration: none;
 }
 
+/* nav3 */
 .navbar3{
   height: 60px;
   background-color: white;
@@ -111,5 +104,83 @@ footer{
   width: 50%;
   height: 60px;
   float: left;
+}
 
+.service li{
+  list-style: none;
+  display: inline-block;
+}
+
+/* board */
+.board{
+  height: 450px;
+  background-image: url(../img/testata.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slogan{
+  width: 40%;
+  height: 100px;
+  float: none;
+}
+
+.slogan:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.slogan h1{
+  font-size: 35px;
+  color: #0d325a;
+  padding-left: 150px;
+  padding-top: 75px;
+}
+
+.description{
+  width: 60%;
+  height: 50px;
+}
+
+.description p{
+  font-size: 16px;
+  padding-left: 150px;
+  padding-top: 75px;
+  color: #0d325a;
+}
+
+.get{
+  width: 30%;
+  height: 75px;
+  margin-left: 150px;
+  margin-top: 150px;
+  float: none;
+}
+
+.get:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.get a{
+  font-size: 20px;
+  padding-left: 50px;
+  padding-top: 30px;
+  color: #0d325a;
+  border: solid 1px black;
+  background-color: white;
+  text-decoration: none;
+
+}
+
+main{
+  height: 2200px;
+  background-color: white;
+}
+
+footer{
+  height: 500px;
+  background-color: darkblue;
 }
