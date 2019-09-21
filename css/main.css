@@ -170,11 +170,13 @@ header{
   padding-top: 30px;
   color: #0d325a;
   border: solid 1px black;
+  border-radius: 5px;
   background-color: white;
   text-decoration: none;
-
 }
+/* header end */
 
+/* main */
 main{
   height: 2200px;
   background-color: white;
