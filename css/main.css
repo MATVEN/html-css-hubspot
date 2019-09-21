@@ -227,6 +227,29 @@ main{
   background-color: white;
 }
 
+.box1{
+  width: 50%;
+  height: 200px;
+}
+
+.box1 img{
+  width: 225px;
+  height: 125px;
+  margin-left: 20%;
+  margin-top: 30px;
+}
+
+.learn{
+  width: 300px;
+  font-size: 15px;
+  color: white;
+  border: solid 1px black;
+  background-color: orange;
+  text-decoration: none;
+  float: none;
+  margin-bottom: 10px;
+}
+
 footer{
   height: 500px;
   background-color: darkblue;
