@@ -45,7 +45,6 @@ footer{
 .info ul{
   list-style-type: none;
   float: left;
-  mar
 }
 
 .info li{
@@ -60,7 +59,57 @@ footer{
   background-color: lightgrey;
 }
 
+.selection{
+  width: 50%;
+  height: 60px;
+  float: left;
+}
+
+.selection select{
+  margin-top: 25px;
+  border: none;
+  color:#0d325a;
+  background-color: lightgrey;
+}
+
+.search{
+  width: 50%;
+  height: 60px;
+  float: left;
+}
+
+.search:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#free{
+  width: 300px;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-left: 500px;
+  padding: 10px;
+  color: white;
+  border: solid 1px black;
+  background-color: orange;
+  text-decoration: none;
+}
+
 .navbar3{
   height: 60px;
   background-color: white;
+}
+
+.logo{
+  width: 50%;
+  height: 60px;
+  float: left;
+}
+
+.service{
+  width: 50%;
+  height: 60px;
+  float: left;
+
 }
