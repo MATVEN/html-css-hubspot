@@ -196,7 +196,7 @@ main{
 
 .cube img{
   width: 300px;
-  height: 250px;
+  height: 225px;
   margin-left: 500px;
   margin-top: 50px;
 }
@@ -317,6 +317,12 @@ margin-left: 230px;
 
 .vertical a{
   margin-left: 35%;
+}
+
+/* section2 */
+#sec2{
+  height: 450px;
+  background-color: #00BBA8;
 }
 
 footer{
