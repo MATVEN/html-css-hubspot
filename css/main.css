@@ -327,7 +327,7 @@ margin-left: 230px;
 
 /* medium */
 .medium{
-  height: 150px;
+  height: 125px;
 }
 
 .medium h4{
@@ -348,6 +348,54 @@ margin-left: 230px;
   text-align: center;
 }
 
+/* tab */
+.tab{
+  height: 325px;
+  background-color: grey;
+}
+
+/* low */
+.low{
+  width: 1000px;
+  height: 500px;
+  background-color: black;
+  margin-left:13%;
+  margin-right: 15%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: inline-block;
+  position: relative;
+}
+
+.costumers{
+  width:300px;
+  height: 250px;
+  background-color: red;
+  float: left;
+}
+
+.shopify{
+  width: 700px;
+  height: 250px;
+  background-color: green;
+}
+
+.start{
+  width: 500px;
+  height: 250px;
+  background-color: yellow;
+  float: left;
+  display: inline-block;
+  position: absolute;
+}
+
+.photo{
+  width: 500px;
+  height: 250px;
+  background-color: blue;
+}
+
+/* main end */
 footer{
   height: 500px;
   background-color: darkblue;
