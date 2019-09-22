@@ -354,6 +354,10 @@ margin-left: 230px;
   background-color: grey;
 }
 
+#sec3{
+  height: 600px;
+}
+
 /* low */
 .low{
   width: 1000px;
@@ -378,6 +382,7 @@ margin-left: 230px;
   width: 700px;
   height: 250px;
   background-color: green;
+  float: right;
 }
 
 .start{
@@ -385,14 +390,13 @@ margin-left: 230px;
   height: 250px;
   background-color: yellow;
   float: left;
-  display: inline-block;
-  position: absolute;
 }
 
 .photo{
   width: 500px;
   height: 250px;
   background-color: blue;
+  float: right;
 }
 
 /* main end */
