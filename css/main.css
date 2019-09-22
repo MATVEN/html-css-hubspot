@@ -251,6 +251,9 @@ main{
   text-decoration: none;
   float: none;
   margin-bottom: 10px;
+  padding: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .box2{
@@ -415,7 +418,7 @@ margin-left: 230px;
 #free2{
   width: 300px;
   font-size: 20px;
-  margin-left: 10px;
+  margin-left: 3px;
   padding: 15px;
   color: white;
   border: solid 1px black;
@@ -429,6 +432,11 @@ margin-left: 230px;
   float: right;
 }
 
+.photo img{
+  width: 200px;
+  height: 250px;
+  margin-left: 200px;
+}
 /* main end */
 footer{
   height: 500px;
