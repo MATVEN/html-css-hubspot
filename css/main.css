@@ -84,7 +84,7 @@ header{
   padding: 10px;
   color: white;
   border: solid 1px black;
-  background-color: orange;
+  background-color: #FF8F73;
   text-decoration: none;
 }
 
@@ -247,7 +247,7 @@ main{
   font-size: 15px;
   color: white;
   border: solid 1px black;
-  background-color: orange;
+  background-color: #FF8F73;
   text-decoration: none;
   float: none;
   margin-bottom: 10px;
@@ -362,7 +362,6 @@ margin-left: 230px;
 .low{
   width: 1000px;
   height: 500px;
-  background-color: black;
   margin-left:13%;
   margin-right: 15%;
   margin-top: 50px;
@@ -374,28 +373,59 @@ margin-left: 230px;
 .costumers{
   width:300px;
   height: 250px;
-  background-color: red;
   float: left;
 }
 
+.costumers strong{
+  font-size: 30px;
+  color: #0d325a;
+}
+
+.costumers p{
+  font-size: 15px;
+  color: #0d325a;
+  margin-top: 10px;
+}
 .shopify{
   width: 700px;
   height: 250px;
-  background-color: green;
   float: right;
 }
 
 .start{
   width: 500px;
   height: 250px;
-  background-color: yellow;
   float: left;
+  margin-top: 30px;
+}
+
+.start strong{
+  font-size: 25px;
+  color: #0d325a;
+  margin-right: 150px;
+}
+
+.start p{
+  font-size: 15px;
+  color: #0d325a;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+#free2{
+  width: 300px;
+  font-size: 20px;
+  margin-left: 10px;
+  padding: 15px;
+  color: white;
+  border: solid 1px black;
+  background-color: #FF8F73;
+  text-decoration: none;
 }
 
 .photo{
   width: 500px;
   height: 250px;
-  background-color: blue;
   float: right;
 }
 
