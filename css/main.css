@@ -469,14 +469,21 @@ footer{
 }
 
 /* Strip */
+.strip{
+  width: 80%;
+  height: 75px;
+  background-color: red;
+  margin-left: 200px;
+}
 #support
 {
   width: 300px;
   font-size: 15px;
-  margin-left: 3px;
   padding: 10px;
   color:#0d325a;
   border-radius: 5px;
   background-color: white;
   text-decoration: none;
+  margin-left: 80%;
+  margin-top: 30px;
 }
