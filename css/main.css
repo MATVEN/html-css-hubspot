@@ -2,7 +2,6 @@
 *{
   margin: 0;
   padding: 0;
-  border: 0;
   box-sizing: border-box;
 }
 
@@ -20,12 +19,6 @@ header{
 .info{
   width: 50%;
   margin-left: 5%;
-}
-
-.info:after{
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .info img{
@@ -55,6 +48,7 @@ header{
   width: 50%;
   height: 60px;
   float: left;
+  text-align: center;
 }
 
 .selection select{
@@ -68,6 +62,8 @@ header{
   width: 50%;
   height: 60px;
   float: left;
+  padding-top: 20px;
+  text-align: right;
 }
 
 .search:after{
@@ -79,13 +75,12 @@ header{
 #free{
   width: 300px;
   font-size: 15px;
-  margin-top: 25px;
-  margin-left: 500px;
   padding: 10px;
   color: white;
   border: solid 1px black;
   background-color: #FF8F73;
   text-decoration: none;
+  margin-right: 150px;
 }
 
 /* nav3 */
@@ -97,6 +92,9 @@ header{
 .logo{
   width: 50%;
   height: 60px;
+  padding-top: 15px;
+  padding-right: 125px;
+  text-align: center;
   float: left;
 }
 
@@ -104,6 +102,9 @@ header{
   width: 50%;
   height: 60px;
   float: left;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 64px;
 }
 
 .service li{
@@ -166,8 +167,7 @@ header{
 
 .get a{
   font-size: 20px;
-  padding-left: 50px;
-  padding-top: 30px;
+  padding: 25px;
   color: #0d325a;
   border: solid 1px black;
   border-radius: 5px;
@@ -232,26 +232,25 @@ main{
   width: 50%;
   height: 200px;
   display: inline-block;
-  position: relative;
 }
 
-.box1 img{
-  width: 225px;
-  height: 125px;
+.book{
+  width: 200px;
   margin-left: 20%;
-  margin-top: 30px;
+  margin-top: 5px;
+}
+
+.learnbox{
+  margin-top: 10px;
+text-align: center;
 }
 
 .learn{
-  width: 300px;
   font-size: 15px;
   color: white;
-  border: solid 1px black;
   border-radius: 5px;
   background-color: #FF8F73;
   text-decoration: none;
-  float: none;
-  margin-bottom: 10px;
   padding: 7px;
   padding-left: 15px;
   padding-right: 15px;
@@ -276,6 +275,10 @@ margin-left: 230px;
   display: inline-block;
   position: relative;
 }
+.vertical.central{
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 .vertical img{
   width: 225px;
@@ -299,10 +302,16 @@ margin-left: 230px;
   color: #0d325a;
 }
 
+.vertical hr{
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 .vertical h5{
   font-size: 10px;
   margin-left: 25%;
-  margin-top: 30px;
+  margin-top: 15px;
   color: #0d325a;
 }
 
@@ -339,13 +348,13 @@ margin-left: 230px;
   margin-left: 30%;
   margin-right: 30%;
   color: white;
-  padding-top: 25px;
+  padding-top: 20px;
   text-align: center;
 }
 
 .medium p{
   font-size: 15px;
-  margin-top: 10px;
+  margin-top: 8px;
   margin-left: 27%;
   margin-right: 27%;
   color: white;
