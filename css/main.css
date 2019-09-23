@@ -479,7 +479,7 @@ margin-left: 230px;
 }
 /* main end */
 footer{
-  height: 600px;
+  height: 550px;
   background-color: #0d325a;
 }
 
@@ -534,6 +534,7 @@ footer{
   width: 80%;
   margin-top: 30px;
   margin-left: 30px;
+  float: none;
 }
 
 .strip3 ul{
@@ -549,5 +550,38 @@ footer{
 }
 
 .strip4{
-  background-color: white;
+  width: 85%;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.logo2{
+  width: 50%;
+  display: inline-block;
+}
+
+.privacy{
+  width: 50%;
+  float: right;
+}
+
+.logo2 img{
+margin-left: 30px;
+}
+
+.logo2 p{
+  margin-left: 30px;
+  margin-top: 5px;
+  color: white
+}
+
+.privacy ul{
+  text-decoration: none;
+}
+
+.privacy li{
+  display: inline-block;
+  color: white;
+  margin-right: 20px;
+  float: right;
 }
