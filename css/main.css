@@ -399,11 +399,10 @@ margin-left: 230px;
 }
 
 .list{
-  width: 20%;
+  width: 24%;
   height: 150px;
   margin: 0;
-  background-color: white;
-  border: solid black;
+  border: solid 2px white;
   position: relative;
   display: inline-block;
 }
