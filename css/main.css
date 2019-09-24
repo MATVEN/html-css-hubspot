@@ -66,12 +66,6 @@ header{
   text-align: right;
 }
 
-.search:after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
 #free{
   width: 300px;
   font-size: 15px;
@@ -110,8 +104,18 @@ header{
 .service li{
   list-style: none;
   display: inline-block;
+  margin-left: 30px;
 }
 
+.service select{
+  border: none;
+  color: #0d325a;
+}
+
+.service a{
+    text-decoration: none;
+    color: #0d325a;
+}
 /* board */
 .board{
   height: 450px;
@@ -159,12 +163,6 @@ header{
   float: none;
 }
 
-.get:after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .get a{
   font-size: 20px;
   padding: 25px;
@@ -207,11 +205,11 @@ main{
 }
 
 .cube p{
-  margin-left: 12%;
-  margin-right: 12%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
   margin-top: 20px;
   text-align: center;
-  font-size: 17px;
+  font-size: 19px;
 }
 
 /* orizontal */
@@ -242,7 +240,7 @@ main{
 
 .learnbox{
   margin-top: 10px;
-text-align: center;
+  text-align: center;
 }
 
 .learn{
@@ -269,7 +267,8 @@ text-align: center;
 }
 
 .box2 p{
-  font-size: 13px;
+  font-size: 15px;
+  margin-right: 175px;
   margin-top: 10px;
   color: #0d325a;
 }
@@ -407,6 +406,17 @@ margin-left: 230px;
   display: inline-block;
 }
 
+.list h4{
+  color: white;
+}
+
+.list strong{
+  font-size: 40px;
+}
+
+.list p{
+  color: white;
+}
 /* section3 */
 #sec3{
   height: 600px;
@@ -503,7 +513,7 @@ footer{
   font-size: 17px;
   color: white;
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 75px;
 }
 
 .box3 ul{
