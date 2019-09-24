@@ -393,10 +393,22 @@ margin-left: 230px;
 
 /* tab */
 .tab{
-  height: 325px;
-  background-color: grey;
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
 }
 
+.list{
+  width: 20%;
+  height: 150px;
+  margin: 0;
+  background-color: white;
+  border: solid black;
+  position: relative;
+  display: inline-block;
+}
+
+/* section3 */
 #sec3{
   height: 600px;
 }
